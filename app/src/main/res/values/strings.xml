@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FaceApp</string>
+
+    <!-- String array for Spinner (all the spinner items are listed here -->
+    <string-array name="Hair_Styles">
+        <item>Hair One</item>
+        <item>Hair Two</item>
+        <item>Hair Three</item>
+    </string-array>
+
+<!-- Strings for text in the main.xml -->
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="blue_string">Blue</string>
+    <string name="random_face_string">Random Face</string>
+    <string name="Hair_string">Hair</string>
+    <string name="Eyes_string">Eyes</string>
+    <string name="skin_string">Skin</string>
+</resources>
