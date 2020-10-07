@@ -3,9 +3,9 @@
 
     <!-- String array for Spinner (all the spinner items are listed here -->
     <string-array name="Hair_Styles">
-        <item>Hair One</item>
-        <item>Hair Two</item>
-        <item>Hair Three</item>
+        <item>Hat</item>
+        <item>Fancy Hair</item>
+        <item>Mohawk</item>
     </string-array>
 
 <!-- Strings for text in the main.xml -->

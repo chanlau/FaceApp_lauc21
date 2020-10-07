@@ -13,8 +13,8 @@
         android:layout_weight="10"
         android:orientation="vertical">
 
-        <SurfaceView
-            android:id="@+id/surfaceView"
+        <com.example.faceapp.Face
+            android:id="@+id/faceview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0" />
@@ -32,30 +32,31 @@
             android:orientation="vertical">
 
             <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/hairButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Hair_string" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/eyeButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Eyes_string" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/skinButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/skin_string" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/randomButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/random_face_string" />
@@ -80,7 +81,7 @@
                 android:textAlignment="center" />
 
             <SeekBar
-                android:id="@+id/seekBar"
+                android:id="@+id/redSeekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:max="255" />
@@ -93,7 +94,7 @@
                 android:textAlignment="center" />
 
             <SeekBar
-                android:id="@+id/seekBar2"
+                android:id="@+id/greenSeekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:max="255" />
@@ -106,7 +107,7 @@
                 android:textAlignment="center" />
 
             <SeekBar
-                android:id="@+id/seekBar3"
+                android:id="@+id/blueSeekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:max="255" />
